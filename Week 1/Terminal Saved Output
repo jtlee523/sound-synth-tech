@@ -1,0 +1,120 @@
+Last login: Thu Sep  1 14:31:19 on ttys001
+(base) josephlee@dyn-160-39-230-231 ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/sbin/chown -R josephlee:admin /usr/local/Homebrew
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 17157, done.
+remote: Counting objects: 100% (6986/6986), done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 17157 (delta 6952), reused 6962 (delta 6933), pack-reused 10171
+Receiving objects: 100% (17157/17157), 5.95 MiB | 12.96 MiB/s, done.
+Resolving deltas: 100% (12047/12047), completed with 967 local objects.
+From https://github.com/Homebrew/brew
+ * [new branch]          dependabot/bundler/Library/Homebrew/unicode-display_width-2.3.0 -> origin/dependabot/bundler/Library/Homebrew/unicode-display_width-2.3.0
+   d1a819986..1b3f5980b  master     -> origin/master
+ * [new tag]             3.3.10     -> 3.3.10
+ * [new tag]             3.3.11     -> 3.3.11
+ * [new tag]             3.3.12     -> 3.3.12
+ * [new tag]             3.3.13     -> 3.3.13
+ * [new tag]             3.3.14     -> 3.3.14
+ * [new tag]             3.3.15     -> 3.3.15
+ * [new tag]             3.3.16     -> 3.3.16
+ * [new tag]             3.4.0      -> 3.4.0
+ * [new tag]             3.4.1      -> 3.4.1
+ * [new tag]             3.4.10     -> 3.4.10
+ * [new tag]             3.4.11     -> 3.4.11
+ * [new tag]             3.4.2      -> 3.4.2
+ * [new tag]             3.4.3      -> 3.4.3
+ * [new tag]             3.4.4      -> 3.4.4
+ * [new tag]             3.4.5      -> 3.4.5
+ * [new tag]             3.4.6      -> 3.4.6
+ * [new tag]             3.4.7      -> 3.4.7
+ * [new tag]             3.4.8      -> 3.4.8
+ * [new tag]             3.4.9      -> 3.4.9
+ * [new tag]             3.5.0      -> 3.5.0
+ * [new tag]             3.5.1      -> 3.5.1
+ * [new tag]             3.5.10     -> 3.5.10
+ * [new tag]             3.5.2      -> 3.5.2
+ * [new tag]             3.5.3      -> 3.5.3
+ * [new tag]             3.5.4      -> 3.5.4
+ * [new tag]             3.5.5      -> 3.5.5
+ * [new tag]             3.5.6      -> 3.5.6
+ * [new tag]             3.5.7      -> 3.5.7
+ * [new tag]             3.5.8      -> 3.5.8
+ * [new tag]             3.5.9      -> 3.5.9
+ * [new tag]             3.6.0      -> 3.6.0
+ * [new tag]             3.6.1      -> 3.6.1
+HEAD is now at 1b3f5980b Merge pull request #13839 from apainintheneck/no-autoremove-build-deps-when-built-from-src
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:1f50bf80583bd436c9542d4fa5ad47df0ef0f0bea22ae710c4f04c42d7560bca
+######################################################################### 100.0%
+==> Pouring portable-ruby-2.6.8_1.el_capitan.bottle.tar.gz
+Updated 1 tap (homebrew/core).
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+(base) josephlee@dyn-160-39-230-231 ~ % brew install git 
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:a025e143fe
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.40
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:0108a261b51c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.37.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:eabd8b4a14e990
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Pouring gettext--0.21.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21: 1,953 files, 19.8MB
+==> Installing git dependency: pcre2
+==> Pouring pcre2--10.40.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.40: 230 files, 6.4MB
+==> Installing git
+==> Pouring git--2.37.3.big_sur.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/git/2.37.3: 1,562 files, 44.6MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+(base) josephlee@dyn-160-39-230-231 ~ % 
