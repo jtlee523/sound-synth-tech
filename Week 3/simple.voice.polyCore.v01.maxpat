@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 94.0, 87.0, 1079.0, 947.0 ],
+		"rect" : [ 94.0, 87.0, 1327.0, 947.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"addpoints" : [ 0.0, 0.04, 0, 196.808510638297861, 0.866666666666667, 0, 319.148936170212778, 0.506666666666667, 0, 744.680851063829778, 0.48, 0, 1000.0, 0.0, 0 ],
+					"id" : "obj-15",
+					"maxclass" : "function",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "", "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 336.0, 335.0, 200.0, 100.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-55",
 					"linecount" : 3,
@@ -116,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 993.0, 501.0, 155.0, 60.0 ],
+					"patching_rect" : [ 993.0, 501.0, 157.0, 60.0 ],
 					"text" : "button on a synthesizer that will kill everything - this is where we receive that signal"
 				}
 
@@ -189,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 682.0, 150.0, 33.0 ],
+					"patching_rect" : [ 274.0, 682.0, 152.0, 33.0 ],
 					"text" : "^ monitors voice allocation outside of the poly~ object"
 				}
 
@@ -214,10 +227,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 274.0, 637.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 
@@ -242,10 +251,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 223.666666666666629, 637.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -258,10 +263,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 115.0, 637.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -275,10 +276,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 115.0, 67.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -304,21 +301,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 559.0, 378.0, 150.0, 47.0 ],
 					"text" : "Setp 19: Ask in OH or on slack what exactly this does!"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"addpoints" : [ 32.204348024412077, 0.080629966916075, 0, 90.92992383363412, 0.376273178941681, 0, 132.606138924049731, 0.194855753380514, 0, 133.237897399469546, 0.18813648223877, 0, 219.747315931282344, 0.201574917290187, 0, 297.416625872511474, 0.04703414736771, 0 ],
-					"domain" : 356.14300537109375,
-					"id" : "obj-1",
-					"maxclass" : "function",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "float", "", "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 349.666666666666629, 344.0, 200.0, 100.0 ],
-					"range" : [ 0.0, 0.503937005996704 ]
 				}
 
 			}
@@ -362,11 +344,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-40",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 559.0, 351.0, 150.0, 20.0 ],
-					"text" : "<function> ADSR Cuve"
+					"patching_rect" : [ 559.0, 316.5, 150.0, 47.0 ],
+					"text" : "<function> ADSR Cuve\nattack, decay, sustain, release"
 				}
 
 			}
@@ -491,7 +474,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 158.0, 67.0, 150.0, 60.0 ],
-					"presentation_linecount" : 3,
 					"text" : "using in instead  of inlet - need a different syntax for poly synth\n"
 				}
 
@@ -550,15 +532,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-1", 1 ]
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-10", 0 ]
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-15", 1 ]
 				}
 
 			}
@@ -599,7 +581,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-27", 1 ]
 				}
 
@@ -643,7 +625,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -680,7 +662,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -713,32 +695,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.expr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.mc2f.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.playkeys.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
