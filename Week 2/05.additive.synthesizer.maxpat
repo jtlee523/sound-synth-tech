@@ -65,12 +65,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-61",
-					"linecount" : 7,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 667.0, 809.0, 150.0, 100.0 ],
-					"text" : "Q: Is the argument in metro the default value? Because the slider on (i) will change the value? (It changes the value but the object box doesn't change)"
+					"patching_rect" : [ 666.0, 772.0, 150.0, 154.0 ],
+					"text" : "Q: Is the argument in metro the default value? Because the slider on (i) will change the value? (It changes the value but the object box doesn't change)\n\nA: The argument you put in is the initial box is the DEFAULT initizalization."
 				}
 
 			}
@@ -105,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1146.0, 839.0, 150.0, 74.0 ],
+					"patching_rect" : [ 1146.0, 839.0, 151.0, 74.0 ],
 					"text" : "made it 1800 vs 2000 to remove the clicking - the note diminishes before we send a new bang message"
 				}
 
