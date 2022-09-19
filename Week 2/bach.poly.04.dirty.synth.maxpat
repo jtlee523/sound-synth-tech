@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 89.0, 176.0, 150.0, 33.0 ],
+					"text" : "vertical zoom and horizontal zoom"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "zoom",
+					"id" : "obj-1",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 22.0, 133.0, 186.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-27",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -750,7 +775,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "",
-					"attr" : "showvelocity",
+					"attr" : "vzoom",
 					"id" : "obj-3",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -774,6 +799,14 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 31.5, 165.0, 136.785714285714278, 165.0, 136.785714285714278, 62.333333333333314, 242.071428571428555, 62.333333333333314 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"order" : 1,
@@ -799,6 +832,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 31.5, 117.0, 136.785714285714278, 117.0, 136.785714285714278, 62.333333333333314, 242.071428571428555, 62.333333333333314 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
