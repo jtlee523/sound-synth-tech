@@ -162,7 +162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.697952138185514, 733.027461767196655, 150.0, 87.0 ],
+					"patching_rect" : [ 87.697952138185514, 733.027461767196655, 152.0, 87.0 ],
 					"text" : "Q: My first attempt at the matrix controll gave me binary inputs (on/off). How do I make it not do that? (Used an online ref to get the analog)"
 				}
 
@@ -209,7 +209,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 250.697952138185514, 499.249948859214783, 19.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "L\n\nR"
 				}
 
@@ -438,7 +437,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 918.623782396316528, 45.5, 150.0, 114.0 ],
-					"presentation_linecount" : 7,
 					"text" : "square wave\nodd harmonics\nhigh harmonics roll off gradually\nhigh harmonic distortion\nbasis for modelling an electric guitar\n"
 				}
 
