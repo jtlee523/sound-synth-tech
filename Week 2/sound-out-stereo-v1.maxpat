@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 44.0, 65.0, 150.0, 33.0 ],
+					"text" : "This is the path I will use to hear things as output"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"linecount" : 8,
 					"maxclass" : "comment",
