@@ -164,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1104.0, 299.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1104.0, 299.0, 153.0, 33.0 ],
 					"text" : "pressing the bang sets the mutes all to 1"
 				}
 
@@ -384,7 +384,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1087.0, 37.0, 150.0, 47.0 ],
+					"patching_rect" : [ 1087.0, 37.0, 151.0, 47.0 ],
 					"text" : "note that mousing over an outlet will show what that data is"
 				}
 

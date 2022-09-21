@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 94.0, 87.0, 1327.0, 947.0 ],
+		"rect" : [ 358.0, 87.0, 1327.0, 947.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 629.0, 255.0, 418.0, 22.0 ],
-					"text" : "0.866667 196.808511 0.506667 122.340426 0.48 425.531915 0. 255.319149"
+					"text" : "0.946667 196.808511 0.493333 127.659574 0.48 420.212766 0. 255.319149"
 				}
 
 			}
@@ -75,7 +75,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.04, 0, 196.808510638297861, 0.866666666666667, 0, 319.148936170212778, 0.506666666666667, 0, 744.680851063829778, 0.48, 0, 1000.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 196.808510638297861, 0.946666666666667, 0, 324.468085106383, 0.493333333333333, 0, 744.680851063829778, 0.48, 0, 1000.0, 0.0, 0 ],
 					"id" : "obj-15",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -762,32 +762,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.expr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.mc2f.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.playkeys.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

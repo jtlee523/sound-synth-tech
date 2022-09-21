@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -185,7 +185,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -219,15 +219,27 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 417.0, 309.0, 150.0, 33.0 ],
+									"text" : "click on a point to drag\nshift click to remove"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"linecount" : 18,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 525.0, 464.0, 150.0, 248.0 ],
-									"presentation_linecount" : 18,
+									"patching_rect" : [ 525.0, 464.0, 153.0, 248.0 ],
 									"text" : "There's a bit of sound that's constantly playing because the 1st and last points in your <function> object here have a y value greater than 0. That means the envelope never fully closes after a note is played, and therefore you have some amount of \"bleed\" in which signal is always there. \n\nThe solution is to drag the 1st and last points all the way down to the corners so that the y value is definitely a 0.",
 									"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
 								}
@@ -259,7 +271,7 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 32.204341698180208, 0.080629970820886, 0, 90.929905971332346, 0.37627319716413, 0, 132.606112874859662, 0.194855762817139, 0, 219.747272764053122, 0.201574927052213, 0, 297.416567447899524, 0.047034149645516, 0 ],
+									"addpoints" : [ 0.0, 0.0, 0, 72.617811378857837, 0.497217845916748, 0, 132.606112874859662, 0.194855762817139, 0, 219.747272764053122, 0.201574927052213, 0, 356.14300537109375, 0.0, 0 ],
 									"domain" : 356.14300537109375,
 									"id" : "obj-1",
 									"maxclass" : "function",
@@ -912,7 +924,7 @@
 , 			{
 				"name" : "bach.mc2f.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
