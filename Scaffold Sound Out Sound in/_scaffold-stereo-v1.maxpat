@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 97.0, 184.0, 808.0, 806.0 ],
+		"rect" : [ 81.0, 590.0, 808.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -98,15 +98,22 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "648437__timouse__piano-loop-21.wav",
+				"bootpath" : "~/Documents/Max Course/sound-synth-tech/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sound-in-v1.maxpat",
-				"bootpath" : "~/Documents/Max Patches/Week 1",
+				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Scaffold Sound Out Sound in",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sound-out-stereo-v1.maxpat",
-				"bootpath" : "~/Documents/Max Patches/Week 1",
+				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Scaffold Sound Out Sound in",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
