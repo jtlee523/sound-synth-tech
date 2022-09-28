@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 648.0, 109.0, 1148.0, 861.0 ],
+		"rect" : [ 948.0, 87.0, 824.0, 861.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 478.0, 590.0, 150.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 598.0, 412.49999213218689, 151.0, 33.0 ],
+					"text" : "(drag and drop sound files here)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-73",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.26470160484314, 374.999992847442627, 150.0, 33.0 ],
+					"patching_rect" : [ 224.26470160484314, 374.999992847442627, 152.0, 33.0 ],
 					"text" : "double click loadmess box to return to unity"
 				}
 
@@ -124,6 +146,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.796078431372549, 0.27843137254902, 1.0 ],
 					"id" : "obj-61",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -249,7 +272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.235286235809326, 369.117640018463135, 150.0, 33.0 ],
+					"patching_rect" : [ 413.235286235809326, 369.117640018463135, 152.0, 33.0 ],
 					"text" : "control click -> route patch cord can make it nice"
 				}
 
@@ -257,8 +280,20 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 0,
+					"clipheight" : 71.0,
 					"data" : 					{
-						"clips" : [  ]
+						"clips" : [ 							{
+								"absolutepath" : "/Users/josephlee/Documents/Max Course/sound-synth-tech/media/648437__timouse__piano-loop-21.wav",
+								"filename" : "648437__timouse__piano-loop-21.wav",
+								"filekind" : "audiofile",
+								"id" : "u189002610",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+ ]
 					}
 ,
 					"followglobaltempo" : 0,
@@ -272,7 +307,7 @@
 					"originaltempo" : 0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 413.235286235809326, 444.11763858795166, 150.0, 92.0 ],
+					"patching_rect" : [ 413.235286235809326, 455.11763858795166, 348.0, 72.0 ],
 					"pitchcorrection" : 0,
 					"quality" : 0,
 					"timestretch" : [ 0 ]
@@ -310,7 +345,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.058812618255615, 444.11763858795166, 150.0, 33.0 ],
+					"patching_rect" : [ 598.058812618255615, 369.61763072013855, 150.0, 33.0 ],
 					"text" : "playlist~ : you can put sound files in here"
 				}
 
@@ -430,7 +465,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.259319603443146, 302.860333204269409, 150.0, 47.0 ],
+					"patching_rect" : [ 24.259319603443146, 302.860333204269409, 151.0, 47.0 ],
 					"text" : "selector~ 5 : creates 5 inlets. The integer value is the argument"
 				}
 
@@ -468,7 +503,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 176.259319603443146, 458.784725427627563, 40.324607908725739, 140.0 ]
+					"patching_rect" : [ 176.259319603443146, 449.784725427627563, 40.324607908725739, 140.0 ]
 				}
 
 			}
@@ -699,9 +734,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
