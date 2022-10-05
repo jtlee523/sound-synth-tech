@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 432.0, 127.0, 996.0, 715.0 ],
+		"rect" : [ 181.0, 99.0, 1577.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -508,11 +508,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 125.0, 333.0, 20.0 ],
-					"text" : "[pfft~] arguments: name of subpatch, FFT size, overlap factor"
+					"patching_rect" : [ 156.0, 125.0, 333.0, 47.0 ],
+					"text" : "[pfft~] arguments: name of subpatch, FFT size (power of 2), overlap factor (also power of 2? Unsure. Ask!!)\n"
 				}
 
 			}
@@ -823,28 +824,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "does.nothing.pfftCore.maxpat",
-				"bootpath" : "~/Documents/CU/Semester 11/elex.cmc/week.5.pfft/pfft.boiler.patches",
+				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Week 5/pfft.boiler.patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.CMC-logo300dpi.2x.gif",
-				"bootpath" : "~/Documents/CU/Semester 11/elex.cmc/week.5.pfft/pfft.boiler.patches",
+				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Week 5/pfft.boiler.patches",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.by-sa.2x.png",
-				"bootpath" : "~/Documents/CU/Semester 11/elex.cmc/week.5.pfft/pfft.boiler.patches",
+				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Week 5/pfft.boiler.patches",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.credits.v01.bp.maxpat",
-				"bootpath" : "~/Documents/CU/Semester 11/elex.cmc/week.5.pfft/pfft.boiler.patches",
+				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Week 5/pfft.boiler.patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
