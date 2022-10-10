@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 83.0, 87.0, 1253.0, 959.0 ],
+		"rect" : [ 899.0, 177.0, 1253.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 728.000010848045349, 247.200003683567047, 150.0, 33.0 ],
+					"patching_rect" : [ 728.000010848045349, 247.200003683567047, 151.0, 33.0 ],
 					"text" : "change number of sample values if we change it"
 				}
 
@@ -177,7 +177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 650.799999415874481, 338.838265203394712, 45.999998450279236, 60.0 ],
+					"patching_rect" : [ 650.799999415874481, 338.838265203394712, 49.0, 60.0 ],
 					"text" : "decides on or off- 0, or 1"
 				}
 
@@ -226,8 +226,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 581.999999225139618, 381.600005686283112, 51.0, 22.0 ],
-					"text" : "zl group"
+					"patching_rect" : [ 556.5, 392.600005686283112, 81.0, 22.0 ],
+					"text" : "zl 4096 group"
 				}
 
 			}
@@ -301,7 +301,7 @@
 					"patching_rect" : [ 454.799999415874481, 458.200008869171143, 346.0, 119.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 256
+					"size" : 1024
 				}
 
 			}
@@ -773,7 +773,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 7.666667282581329, 90.0, 134.59999942779541, 35.0 ],
+					"patching_rect" : [ 7.666667282581329, 90.0, 136.0, 35.0 ],
 					"text" : "pfft~ multiband.pfftCore 2048 8"
 				}
 
@@ -999,7 +999,7 @@
 				"patchline" : 				{
 					"color" : [ 0.774302124977112, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-60", 0 ],
-					"midpoints" : [ 608.999999225139618, 324.0, 567.0, 324.0, 567.0, 375.0, 591.499999225139618, 375.0 ],
+					"midpoints" : [ 608.999999225139618, 324.0, 567.0, 324.0, 567.0, 375.0, 566.0, 375.0 ],
 					"source" : [ "obj-66", 1 ]
 				}
 
