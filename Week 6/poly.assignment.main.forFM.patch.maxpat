@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 80.0, 118.0, 983.0, 999.0 ],
+		"rect" : [ 144.0, 87.0, 983.0, 999.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-96",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 259.0, 12.0, 228.0, 33.0 ],
+					"text" : "PLEASE SEE README FILE IN ROOT OF REPO!!!",
+					"textcolor" : [ 0.741176470588235, 0.16078431372549, 0.16078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 478.0, 47.0, 150.0, 74.0 ],
+					"text" : "*This is a copy of my original HW - I think FM synthesis might be easier to work with for this assignment."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"linecount" : 12,
 					"maxclass" : "comment",
@@ -53,11 +78,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"linecount" : 8,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 669.14285714285711, 243.0, 155.0, 114.0 ],
+					"patching_rect" : [ 669.14285714285711, 243.0, 158.0, 100.0 ],
 					"text" : "Q: I think this would have been much more interesting if I could control which poly got what modulatr/ rm-amp. I thought \"target\" would work but didn't have much success"
 				}
 
@@ -380,8 +405,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 492.0, 370.0, 79.0, 62.0 ],
-					"text" : ";\rrm-amp 0.5;\rmodulator 2.;\r"
+					"patching_rect" : [ 492.0, 370.0, 99.0, 62.0 ],
+					"text" : ";\rmod.depth 787;\rmodulator 1000.;\r"
 				}
 
 			}
@@ -429,8 +454,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.0, 318.5, 59.0, 22.0 ],
-					"text" : "s rm-amp"
+					"patching_rect" : [ 582.0, 318.5, 75.0, 22.0 ],
+					"text" : "s mod.depth"
 				}
 
 			}
@@ -1191,8 +1216,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "", "", "" ],
-					"patching_rect" : [ 718.64285714285711, 487.0, 156.0, 22.0 ],
-					"text" : "poly~ mySynth.polyCore 16"
+					"patching_rect" : [ 718.64285714285711, 487.0, 190.0, 22.0 ],
+					"text" : "poly~ mySynth.polyCore.forFM 16"
 				}
 
 			}
@@ -1585,7 +1610,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mySynth.polyCore.maxpat",
+				"name" : "mySynth.polyCore.forFM.maxpat",
 				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Week 6",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
