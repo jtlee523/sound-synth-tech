@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 934.0, 87.0, 824.0, 861.0 ],
+		"rect" : [ 948.0, 87.0, 824.0, 861.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 563.852931261062622, 151.735291242599487, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "comment",
@@ -212,7 +200,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.970577001571655, 146.235291242599487, 150.0, 33.0 ],
+					"patching_rect" : [ 588.970577001571655, 146.235291242599487, 150.0, 33.0 ],
 					"text" : "t gives us a trigger (on off: called the \"toggle\" object)"
 				}
 
@@ -377,12 +365,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.558810472488403, 183.617642402648926, 164.0, 60.0 ],
-					"text" : "metro 500 sends a signal every 500 milliseconds\n- the int block near the metro can change the value"
+					"patching_rect" : [ 684.558810472488403, 183.617642402648926, 150.0, 33.0 ],
+					"text" : "metro 500 sends a signal every 500 milliseconds"
 				}
 
 			}
@@ -706,13 +694,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
