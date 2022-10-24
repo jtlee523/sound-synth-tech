@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 546.0, 87.0, 939.0, 982.0 ],
+		"rect" : [ 334.0, 122.0, 1661.0, 999.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,199 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1491.0, 52.5, 150.0, 47.0 ],
+					"text" : "idea: voice changer to change my voice to growing wings voice?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1332.0, 374.0, 150.0, 87.0 ],
+					"text" : "consanants: you should take noise and filter it since there is no pitch material\n- look into MFCC coefficients for this"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1332.0, 272.0, 150.0, 87.0 ],
+					"text" : "note: #0-amp.exp in a send/receive and using copies of the patch would give a unique numerical value of that instance.\n- see Max documentation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"linecount" : 12,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1332.0, 52.5, 153.0, 167.0 ],
+					"text" : "idea: Long gliss time gives a lot of suble change over time\n\nChanging Q value to a larger value reminds me of \"Two's Song\"\n\nMake a new version of the patch and try changing up the formants to see what happens"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 369.0, 201.0, 150.0, 60.0 ],
+					"text" : "changing gliss time can change how slow or fast we change between sounds"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1060.14285714285711, 93.5, 150.0, 20.0 ],
+					"text" : "bass \"u\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"linecount" : 6,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1060.14285714285711, 120.0, 151.0, 89.0 ],
+					"text" : ";\rone-vowel 1 350 0 40;\rone-vowel 2 600 -20 80;\rone-vowel 3 2400 -32 100;\rone-vowel 4 2675 -28 120;\rone-vowel 5 2950 -36 120"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 628.099999999999909, 552.5, 56.0, 20.0 ],
+					"text" : "amplifier"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 686.099999999999909, 552.5, 34.0, 22.0 ],
+					"text" : "*~ 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-46",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 701.099999999999909, 509.5, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 574.099999999999909, 586.0, 173.0, 74.0 ],
+					"text" : "ex: \n- can try the \"noise\" input\n- click can lead to glottal clicks\n- can put filters on voice to change quality"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 597.100000000000023, 413.0, 153.0, 60.0 ],
+					"text" : "cut the cort for in1 or excitation.signal to change the source. (in1 is from the input patch)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.862745098039216, 0.905882352941176, 0.329411764705882, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 596.999999999999886, 509.5, 74.0, 22.0 ],
+					"text" : "receive~ in1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.5, 263.0, 293.5, 60.0 ],
+					"text" : "try making a formant and then raising the Q factor -> it will make it more resonant and less human like. Lowering it makes it more like a square wave.\n**Sounds like what they did to \"Two's Song\" opening "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 27.0, 263.0, 150.0, 33.0 ],
+					"text" : "try not to go below 0 because it'll start shreiking"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 84.0, 59.5, 150.0, 47.0 ],
+					"text" : "double clicking a send object shows where everything is received"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "spectroscope~",
@@ -93,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 605.100000000000023, 539.5, 154.0, 22.0 ],
+					"patching_rect" : [ 597.100000000000023, 472.5, 154.0, 22.0 ],
 					"text" : "receive~ excitation.signal"
 				}
 
@@ -782,7 +975,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1017.0, 659.0, 74.0, 22.0 ],
-					"text" : "1 1 1 1 1"
+					"text" : "0 0 0 0 0"
 				}
 
 			}
@@ -976,7 +1169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.0, 50.0, 232.0, 47.0 ],
+					"patching_rect" : [ 84.0, 9.0, 232.0, 47.0 ],
 					"text" : "refer to the Csound manual!\nusually f1, f2, f3 is enough for the feeling of a voice, but we will try all 5 formants."
 				}
 
@@ -1022,6 +1215,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 1 ],
 					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1145,6 +1345,13 @@
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 847.5, 543.0, 808.64285714285711, 543.0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 1 ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
