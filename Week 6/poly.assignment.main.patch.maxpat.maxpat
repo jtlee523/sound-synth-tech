@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 107.0, 87.0, 1421.0, 999.0 ],
+		"rect" : [ 80.0, 118.0, 983.0, 999.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"linecount" : 12,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1390.0, 21.0, 151.0, 167.0 ],
+					"text" : "**Q: I'm a bit confused to how we would use line to shape anything? For a lot of these modulations, we take in a cycle or just raw frequency values that get multiplied or added. The only thing I could think of was puttling the modulation -> cycle -> multiplied with a line~ with a funtion"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 669.14285714285711, 243.0, 155.0, 114.0 ],
+					"text" : "Q: I think this would have been much more interesting if I could control which poly got what modulatr/ rm-amp. I thought \"target\" would work but didn't have much success"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-92",
 					"maxclass" : "preset",
@@ -364,12 +388,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
-					"linecount" : 11,
+					"linecount" : 15,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 844.5, 27.0, 537.0, 154.0 ],
-					"text" : "Some Notes\n- I used the templates from the video to create (as a base) a poly that has square wave ring modulation. I did this one because I realized I didn't understand a lot of the details from class and this was the easiest to visualize/debug\n-Max was crashing all the time during the making of this patch.\n- I'm still confused by where/how note duration comes into play.\n- My preset kept prompting me to open a file every time I tried to load it. This seemed wrong?\n- I think the duration receive is messing up what I want but I have no clue what the fix is. I was unable to get this fixed by the submission date so right now the patch does some cool sounds but I can't really control the lengths of notes. I think the kslider works fine (though it does clip sometimes) but the bach roll is sounding confusing."
+					"patching_rect" : [ 844.5, 12.0, 540.0, 208.0 ],
+					"text" : "Some Notes\n- I used the templates from the video to create (as a base) a poly that has square wave ring modulation. I did this one because I realized I didn't understand a lot of the details from class and this was the easiest to visualize/debug\n-Max was crashing all the time during the making of this patch.\n- I'm still confused by where/how note duration comes into play.\n- My preset kept prompting me to open a file every time I tried to load it. This seemed wrong?\n- I think the duration receive is messing up what I want but I have no clue what the fix is. I was unable to get this fixed by the submission date so right now the patch does some cool sounds but I can't really control the lengths of notes. I think the kslider works fine (though it does clip sometimes) but the bach roll is sounding confusing.\n- I didn't quite understand how to use another envelope in ring modulation. I made an attempt but I'm not sure if it did much.\n- I also wished I could have sent different modulation and rm-amp frequncies to different polys but couldn't figure out a clean way to do it."
 				}
 
 			}
