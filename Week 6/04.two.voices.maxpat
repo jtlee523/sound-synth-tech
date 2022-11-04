@@ -74,7 +74,7 @@
 					"hidevoices" : [ 0, 0 ],
 					"id" : "obj-31",
 					"keys" : [ "CM", "CM" ],
-					"loop" : [ 0, 1000 ],
+					"loop" : [ 0.0, 1000.0 ],
 					"maxclass" : "bach.roll",
 					"midichannels" : [ 1, 1 ],
 					"numinlets" : 6,
