@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 552.0, 134.0, 716.0, 745.0 ],
+		"rect" : [ 506.0, 211.0, 1076.0, 745.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,85 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"buffername" : "",
+					"id" : "obj-7",
+					"maxclass" : "waveform~",
+					"numinlets" : 5,
+					"numoutlets" : 6,
+					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
+					"patching_rect" : [ 335.0, 391.0, 256.0, 64.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"buffername" : "",
+					"id" : "obj-3",
+					"maxclass" : "waveform~",
+					"numinlets" : 5,
+					"numoutlets" : 6,
+					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
+					"patching_rect" : [ 335.0, 309.0, 256.0, 64.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 306.0, 159.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 736.0, 33.0, 150.0, 33.0 ],
+					"text" : "THINGS I TRIED FOR FUTURE REFERECE"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.227450980392157, 0.741176470588235, 0.733333333333333, 1.0 ],
+					"id" : "obj-122",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 310.0, 219.0, 55.0, 22.0 ],
+					"text" : "r sel.end"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.227450980392157, 0.741176470588235, 0.733333333333333, 1.0 ],
+					"id" : "obj-121",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 221.5, 219.0, 58.0, 22.0 ],
+					"text" : "r sel.start"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 86.0, 157.0, 47.0 ],
+					"patching_rect" : [ 736.0, 82.5, 157.0, 47.0 ],
 					"text" : "split into two lists\n- first is pitchshiftcent #, the second is the start and end"
 				}
 
@@ -64,81 +137,25 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 587.0, 167.0, 150.0, 20.0 ],
-					"text" : "Pitchshift info"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 587.0, 219.0, 150.0, 33.0 ],
-					"text" : "Start\nEnd"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 188.0, 117.0, 55.0, 22.0 ],
+					"patching_rect" : [ 745.5, 134.0, 55.0, 22.0 ],
 					"text" : "zl.slice 2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 235.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 211.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 167.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-12",
-					"linecount" : 4,
+					"linecount" : 18,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 463.0, 150.0, 60.0 ],
-					"text" : "I got rid of the unpack for now because I want to make sure I'm getting everything routed correctly"
+					"patching_rect" : [ 739.5, 206.0, 305.0, 261.0 ],
+					"text" : "I got rid of the unpack for now because I want to make sure I'm getting everything routed correctly\n\nNo 8: \nAlso, I realized that often the input from the waveform object was \"no data\"\n\nBefore, I was trying to use a list ordered with:\n\n- 1) r to.groove: pitchshift cent info\n- 2) waveform~ selection start\n- 3) waveform~ selection end\n\nwith a prepend \"pitchshiftcent\" message, but I think this didn't work because my pack f f f would send 0. instead of no data.\n\n\n"
 				}
 
 			}
@@ -207,7 +224,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 969.0, 205.0, 150.0, 20.0 ],
+					"patching_rect" : [ 508.0, 188.0, 150.0, 20.0 ],
 					"text" : "poly~ instance number"
 				}
 
@@ -220,7 +237,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 917.0, 205.0, 50.0, 22.0 ]
+					"patching_rect" : [ 456.0, 188.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -232,7 +249,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 917.0, 156.0, 56.0, 22.0 ],
+					"patching_rect" : [ 456.0, 139.0, 56.0, 22.0 ],
 					"text" : "thispoly~"
 				}
 
@@ -243,7 +260,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 917.0, 66.0, 225.0, 20.0 ],
+					"patching_rect" : [ 456.0, 49.0, 225.0, 20.0 ],
 					"text" : "safety way to mute everything"
 				}
 
@@ -256,20 +273,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 917.0, 94.0, 58.0, 22.0 ],
+					"patching_rect" : [ 456.0, 77.0, 58.0, 22.0 ],
 					"text" : "r mute.all"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 20.0, 238.0, 100.0 ],
-					"text" : "List order after message:\n- 1) r to.groove: pitchshift cent info\n- 2) waveform~ selection start\n- 3) waveform~ selection end\n\n\n"
 				}
 
 			}
@@ -280,7 +285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 275.0, 167.0, 61.0, 22.0 ],
+					"patching_rect" : [ 739.5, 167.0, 61.0, 22.0 ],
 					"text" : "unpack f f"
 				}
 
@@ -326,23 +331,31 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"source" : [ "obj-10", 0 ]
+					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
-					"midpoints" : [ 326.5, 211.5, 568.5, 211.5 ],
-					"source" : [ "obj-10", 1 ]
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-121", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 2 ],
+					"source" : [ "obj-122", 0 ]
 				}
 
 			}
@@ -355,31 +368,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"order" : 1,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 197.5, 159.5, 568.5, 159.5 ],
-					"order" : 0,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
