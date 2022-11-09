@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 334.0, 122.0, 1661.0, 999.0 ],
+		"rect" : [ 432.0, 87.0, 1661.0, 999.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1332.0, 52.5, 153.0, 167.0 ],
+					"patching_rect" : [ 1332.0, 52.5, 154.0, 167.0 ],
 					"text" : "idea: Long gliss time gives a lot of suble change over time\n\nChanging Q value to a larger value reminds me of \"Two's Song\"\n\nMake a new version of the patch and try changing up the formants to see what happens"
 				}
 
@@ -177,7 +177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 597.100000000000023, 413.0, 153.0, 60.0 ],
+					"patching_rect" : [ 597.100000000000023, 413.0, 154.0, 60.0 ],
 					"text" : "cut the cort for in1 or excitation.signal to change the source. (in1 is from the input patch)"
 				}
 
@@ -190,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 596.999999999999886, 509.5, 74.0, 22.0 ],
+					"patching_rect" : [ 564.999999999999886, 521.5, 74.0, 22.0 ],
 					"text" : "receive~ in1"
 				}
 
