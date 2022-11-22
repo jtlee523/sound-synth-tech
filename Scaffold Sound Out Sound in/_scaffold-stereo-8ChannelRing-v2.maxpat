@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 452.0, 274.0, 808.0, 806.0 ],
+		"rect" : [ 353.0, 167.0, 808.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 59.0, 162.0, 64.0, 22.0 ],
+					"text" : "spat.boiler"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -67,8 +78,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 190.0, 116.0, 22.0 ],
-					"text" : "sound-out-stereo-v1"
+					"patching_rect" : [ 59.0, 190.0, 196.0, 22.0 ],
+					"text" : "sound-out-stereo-8ChannelRing-v2"
 				}
 
 			}
@@ -108,6 +119,29 @@
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"obj-4::obj-105::obj-11" : [ "live.toggle[23]", "live.toggle", 0 ],
+			"obj-4::obj-105::obj-12" : [ "live.toggle[22]", "live.toggle", 0 ],
+			"obj-4::obj-105::obj-33" : [ "live.menu[2]", "live.menu[2]", 0 ],
+			"obj-4::obj-105::obj-48" : [ "live.toggle[24]", "live.toggle", 0 ],
+			"obj-4::obj-105::obj-8" : [ "live.dial[3]", " ", 0 ],
+			"obj-4::obj-29" : [ "live.drop", "live.drop", 0 ],
+			"obj-4::obj-37" : [ "angular", "angular — speakers", 0 ],
+			"obj-4::obj-46" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-4::obj-5" : [ "live.text[20]", "live.text[20]", 0 ],
+			"obj-4::obj-93" : [ "live.gain~[4]", "binaural — headphones", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "648437__timouse__piano-loop-21.wav",
 				"bootpath" : "~/Documents/Max Course/sound-synth-tech/media",
@@ -130,9 +164,42 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sound-out-stereo-v1.maxpat",
+				"name" : "sound-out-stereo-8ChannelRing-v2.maxpat",
 				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Scaffold Sound Out Sound in",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat.boiler.maxpat",
+				"bootpath" : "~/Documents/Max Course/sound-synth-tech/Scaffold Sound Out Sound in",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5.oper.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.sofa.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.spat~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.virtualspeakers~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
